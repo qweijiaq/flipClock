@@ -23,7 +23,9 @@
   "dependencies": {
     "@electron-toolkit/preload": "^3.0.0",
     "@electron-toolkit/utils": "^3.0.0",
-    "electron-updater": "^6.1.7"
+    "dayjs": "^1.11.10",
+    "electron-updater": "^6.1.7",
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@electron-toolkit/eslint-config": "^1.0.2",
@@ -40,6 +42,8 @@
     "eslint": "^8.56.0",
     "eslint-plugin-vue": "^9.20.1",
     "prettier": "^3.2.4",
+    "sass": "^1.71.0",
+    "scss": "^0.2.4",
     "typescript": "^5.3.3",
     "vite": "^5.0.12",
     "vue": "^3.4.15",
