@@ -12,7 +12,7 @@ const { config } = useConfigStore()
     <div class="text-sm">
       {{ config.footer.content }}
     </div>
-    <Navbar class="text-sm" />
+    <Navbar />
   </main>
 </template>
 

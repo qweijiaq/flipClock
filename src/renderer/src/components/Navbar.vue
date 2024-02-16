@@ -13,7 +13,7 @@ const toggle = () => {
 
 <template>
   <main
-    class="py-1 nodrag rounded-md flex justify-between items-center gap-1"
+    class="py-1 no-drag rounded-md flex justify-between items-center gap-1"
     :style="{ color: config.footer.color }"
   >
     <div @click="toggle">

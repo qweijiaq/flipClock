@@ -4,8 +4,8 @@ const { config } = useConfigStore()
 </script>
 
 <template>
-  <main class="p-3 text-white bg-white bg-opacity-60 rounded-lg select-none drag">
-    <div class="bg-[#34495e] rounded-lg w-full p-2 h-[350px] overflow-y-auto nodrag">
+  <main class="p-3 text-white bg-white bg-opacity-60 rounded-lg select-none no-drag">
+    <div class="bg-[#34495e] rounded-lg w-full p-2 h-[350px] overflow-y-auto">
       <div class="card">
         <h2>源码地址</h2>
         <div class="body flex justify-center">
