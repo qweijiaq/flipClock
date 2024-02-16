@@ -15,20 +15,25 @@
 ### 功能截图
 
 翻页时钟效果
+
 ![](https://qiniu.wei-jia.top/%E6%9C%AA%E5%91%BD%E5%90%8D.gif)
 
 倒计时
+
 ![](https://qiniu.wei-jia.top/35732096.png)
 
 ### 软件配置截图
 
 配置时钟颜色
+
 ![](https://qiniu.wei-jia.top/981716581.png)
 
 配置倒计时时间
+
 ![](https://qiniu.wei-jia.top/1610060412.png)
 
 配置底部信息
+
 ![](https://qiniu.wei-jia.top/1481954651.png)
 
 ## 项目启动
