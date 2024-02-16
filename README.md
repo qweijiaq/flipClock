@@ -40,11 +40,15 @@
 
 ### 安装依赖
 
+```bash
 $ pnpm install
+```
 
 ### 启动
 
+```bash
 $ pnpm dev
+```
 
 ## 编译
 
