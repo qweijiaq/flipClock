@@ -18,7 +18,7 @@ export const useConfigStore = defineStore(
       footer: {
         bgColor: '#16a085',
         color: '#fff',
-        content: '项目已开源，仅供交流学习，欢迎查阅'
+        content: '本项目是开源项目，仅用于交流学习，源码在 GitHub，欢迎查阅 👏'
       }
     })
 

@@ -9,10 +9,14 @@ const { config } = useConfigStore()
     class="drag w-full px-2 text-center mt-2 rounded-md text-white flex justify-between items-center"
     :style="{ backgroundColor: config.footer.bgColor, color: config.footer.color }"
   >
-    <div class="text-sm">
-      {{ config.footer.content }}
+    <div class="w-4/5 flex overflow-hidden">
+      <div class="text-sm run text-nowrap">
+        {{ config.footer.content }}
+      </div>
     </div>
-    <Navbar />
+    <div class="w-1/6 flex">
+      <Navbar />
+    </div>
   </main>
 </template>
 
