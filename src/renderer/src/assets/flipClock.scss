@@ -48,7 +48,7 @@
 }
 .main > section > div:nth-child(2) {
   @include size($width, calc($height/2));
-  transform-style: preserve-3d;
+  // transform-style: preserve-3d;
   backface-visibility: hidden;
   transition: 0.5s;
   transform-origin: bottom;
@@ -65,7 +65,7 @@
 .main > section {
   perspective: 200px;
 }
-.main > section > div:nth-child(2).flipDown {
+.main > section > div.flipDown {
   animation-name: flipDown;
   animation-duration: 0.6s;
   animation-fill-mode: both;
@@ -73,6 +73,6 @@
 
 @keyframes flipDown {
   to {
-    transform: rotateX(-180deg);
+    transform: rotateX(0.5turn);
   }
 }
